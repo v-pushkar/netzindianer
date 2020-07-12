@@ -1,0 +1,36 @@
+.Rssblock-wrap {
+    .Rsslist {}
+
+    .rssitem-wrap {
+        margin-top: 15px;
+        .rss-article {
+            background-color: #5450501a;
+            margin-top: 30px;
+            padding: 15px;
+           
+
+            .rss-content {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+            div[data-embed-type="video"] {
+                width: 20%;
+                height: auto;
+                margin: auto;
+                padding: 10px;
+            }
+
+
+            p {
+                margin: 2px;
+            }
+            .article-footer{
+                padding: 5px;
+                margin-top: 10px;
+                background-color: #dadada
+            }
+        }
+    }
+}
